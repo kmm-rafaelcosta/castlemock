@@ -40,8 +40,8 @@ public class RandomIntegerExpression extends AbstractExpression {
      */
     @Override
     public String transform(final ExpressionInput input) {
-        int minValue = -1000;
-        int maxValue = 2000;
+        int minValue = 0;
+        int maxValue = 20000;
 
         final ExpressionArgument<?> minArgument = input.getArgument(MIN_ARGUMENT);
         final ExpressionArgument<?> maxArgument = input.getArgument(MAX_ARGUMENT);
